@@ -1,7 +1,7 @@
 .sd{
     display: flex;
     align-items: center;
-    &__num{
+    .sd__num{
         width: 24px;
         height: 24px;
         position:absolute;
@@ -12,7 +12,7 @@
         align-items: center;
         justify-content: center;
     }
-    &__txt{
+    .sd__txt{
         width: 100%;
         height:72px;
         border-radius: 20px;
