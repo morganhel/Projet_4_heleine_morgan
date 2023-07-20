@@ -1,0 +1,15 @@
+.btn{
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient($color-secondaire,$color-primaire);
+    display:inline-block;
+    padding:0 19px 0 19px;
+    color:white;
+    &__link{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
