@@ -27,14 +27,6 @@ h3 {
   padding-bottom: 5px;
 }
 
-section {
-  padding: 40px 0 40px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-color: #F6F6F6;
-}
-
 header {
   height: 60px;
 }
