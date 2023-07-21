@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 body {
@@ -13,12 +14,15 @@ body {
     padding: 0 18px;
 }
 
-p{
-    font-size:16px;
+h1,h2,h3,p{
     margin:0;
 }
 
+p{
+    font-size:16px;
+}
+
 h3{
-    margin:0;
     padding-bottom: 5px;
 }
+

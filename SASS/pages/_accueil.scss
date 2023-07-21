@@ -1,0 +1,21 @@
+.localisation{
+    height: 50px;
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.presentation{
+    padding: 40px 35px 40px 35px;
+    background-color: $color-background;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
