@@ -1,6 +1,7 @@
 .sd{
     display: flex;
     align-items: center;
+
     .sd__num{
         width: 24px;
         height: 24px;
@@ -17,6 +18,7 @@
         height:72px;
         border-radius: 20px;
         background-color: $color-background;
+        @include box-shadow;
         margin:0 13px 0 13px;
         padding:0 25px 0 25px;
         gap:20px;

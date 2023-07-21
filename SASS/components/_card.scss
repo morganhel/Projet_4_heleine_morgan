@@ -6,7 +6,8 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-
+    @include box-shadow;
+    
     &__img{
         object-fit: cover;
         width: 100%;
