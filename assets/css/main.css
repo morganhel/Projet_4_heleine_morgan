@@ -27,6 +27,13 @@ h3 {
   padding-bottom: 5px;
 }
 
+section {
+  padding: 40px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 header {
   height: 60px;
 }
@@ -46,6 +53,7 @@ header .header__title img {
 .btn {
   position: relative;
   height: 50px;
+  border: solid 2px white;
   border-radius: 25px;
   background: linear-gradient(#FF79D9, #9356DC);
   display: flex;
@@ -113,7 +121,7 @@ header .header__title img {
   height: 72px;
   border-radius: 20px;
   background-color: #F6F6F6;
-  margin: 12px;
+  margin: 0 13px 0 13px;
   padding: 0 25px 0 25px;
   gap: 20px;
   font-weight: bold;
