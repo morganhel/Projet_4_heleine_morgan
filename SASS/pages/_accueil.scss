@@ -7,13 +7,20 @@
     gap:$gs;
 }
 
-.presentation{
-    padding: 40px 35px 40px 35px;
-    background-color: $color-background;
-    gap: $gs;
+.section{
+    padding: 40px 0 40px 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap:20px;
+    background-color: $color-background;
+}
+
+.section-center{
+    padding-right:35px;
+    padding-left:35px;
     text-align: center;
+}
+
+.section-white{
+    background-color: white;
 }
