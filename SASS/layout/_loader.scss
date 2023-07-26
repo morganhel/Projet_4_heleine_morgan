@@ -1,0 +1,68 @@
+.main-container{
+    animation: loader-appear 3s 0.25s both;
+}
+
+.loader{
+    position:fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    background-color: white;
+    font-family: 'Shrikhand';
+    font-size:100px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+
+    &__elt{
+        font-family:'Shrikhand';
+        animation: loader 1.5s 0.25s both;
+        
+        &--1{
+            color:$color-primaire;
+        }
+        &--2{
+            color:$color-secondaire;
+            animation-delay:0.5s;
+        }
+        &--3{
+            color:$color-tertiaire;
+            animation-delay:1s;
+        }
+    }
+}
+
+
+
+@keyframes loader-appear{
+    0%{
+        opacity:0;
+    }
+    
+    50%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes loader{
+    0% {
+        transform: translateY(-600px);
+      }
+    
+    25%{
+        transform: translateY(200px);
+    }
+
+    50%{
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+      }
+}
