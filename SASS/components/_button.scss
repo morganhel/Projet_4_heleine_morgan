@@ -1,9 +1,9 @@
 .btn{
     position:relative;
     height: 50px;
-    border: solid 2px white;
     border-radius: 25px;
-    background: linear-gradient($color-secondaire,$color-primaire);
+    // background: linear-gradient($color-secondaire,$color-primaire);
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     @include box-shadow;
     display:flex;
     align-items: center;
@@ -19,3 +19,8 @@
         width:100%;
     }
 }
+
+// background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+// background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%),
+// linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+
