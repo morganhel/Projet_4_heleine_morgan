@@ -2,7 +2,7 @@
     position:relative;
     height: 50px;
     border-radius: 25px;
-    background:linear-gradient(193.33deg, $color-primaire -11.44%, $color-secondaire 123.93%);
+    background:$color-gradient;
     @include shadow;
     display:flex;
     align-items: center;

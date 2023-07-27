@@ -199,6 +199,50 @@ footer .section__list li {
   align-items: center;
 }
 
+.card__like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__like--empty {
+  position: absolute;
+}
+.card__like--full {
+  position: relative;
+  opacity: 0;
+}
+.card__like--full::before {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79D9 123.93%);
+}
+.card__like--full:hover {
+  animation: fill 400ms ease-in-out forwards;
+}
+
+@keyframes fill {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fill-out {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .localisation {
   height: 50px;
   background-color: #EAEAEA;

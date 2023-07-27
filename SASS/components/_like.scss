@@ -1,0 +1,54 @@
+.card__like{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--empty{
+        position:absolute;
+    }
+    &--full{
+        position:relative;
+        opacity:0;
+        &::before{
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: $color-gradient;
+        }
+
+        &:hover{
+            animation: fill 400ms ease-in-out forwards;
+        }
+
+    }
+}
+
+@keyframes fill {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+  }
+
+@keyframes fill-out {
+    0% {
+        opacity: 1;
+    }
+
+
+    50% {
+        opacity: 0.5;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+  }
