@@ -139,6 +139,7 @@ footer .section__list li {
 }
 
 .card {
+  position: relative;
   height: 251px;
   background-color: white;
   border-radius: 20px;
