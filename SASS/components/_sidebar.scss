@@ -19,7 +19,7 @@
         height:72px;
         border-radius: 20px;
         background-color: $color-background;
-        @include box-shadow;
+        @include shadow;
         margin:0 13px 0 13px;
         padding:0 25px 0 25px;
         gap:20px;
