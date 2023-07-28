@@ -204,10 +204,6 @@ footer .section__list li {
   z-index: 1;
 }
 
-.card2 {
-  height: auto;
-}
-
 .sd {
   display: flex;
   align-items: center;
@@ -310,28 +306,6 @@ footer .section__list li {
   align-items: center;
   justify-content: center;
   gap: 20px;
-}
-
-.section {
-  padding: 40px 18px 40px 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-color: #F6F6F6;
-}
-
-.section-center {
-  align-items: center;
-  text-align: center;
-}
-
-.section-white {
-  background-color: white;
-}
-
-.section-darkgrey {
-  background-color: #353535;
-  color: white;
 }
 
 .presentation {
