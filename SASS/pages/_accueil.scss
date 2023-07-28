@@ -7,25 +7,5 @@
     gap:$gs;
 }
 
-.section{
-    padding: 40px 18px 40px 18px;
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-    background-color: $color-background;
-}
 
-.section-center{
-    align-items: center;
-    text-align: center;
-}
-
-.section-white{
-    background-color: white;
-}
-
-.section-grey{
-    background-color: #353535;
-    color:white;
-}
 

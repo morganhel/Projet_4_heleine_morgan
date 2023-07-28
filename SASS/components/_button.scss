@@ -4,7 +4,7 @@
     border-radius: 25px;
     background:$color-gradient;
     @include shadow;
-    display:flex;
+    display:inline-flex;
     align-items: center;
     justify-content: center;
     padding:0 18px 0 18px;

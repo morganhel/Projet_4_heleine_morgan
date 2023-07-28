@@ -16,7 +16,7 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   margin: 0;
 }
 
@@ -27,6 +27,28 @@ p {
 h3 {
   font-size: 16px;
   padding-bottom: 5px;
+}
+
+.section {
+  padding: 40px 18px 40px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #F6F6F6;
+}
+
+.section-center {
+  align-items: center;
+  text-align: center;
+}
+
+.section-white {
+  background-color: white;
+}
+
+.section-darkgrey {
+  background-color: #353535;
+  color: white;
 }
 
 header {
@@ -128,7 +150,7 @@ footer .section__list li {
   border-radius: 25px;
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79D9 123.93%);
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0 18px 0 18px;
@@ -180,6 +202,10 @@ footer .section__list li {
 }
 .card__like {
   z-index: 1;
+}
+
+.card2 {
+  height: auto;
 }
 
 .sd {
@@ -255,6 +281,28 @@ footer .section__list li {
     opacity: 0;
   }
 }
+.card2 {
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 12px;
+  padding: 15px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.card2__title {
+  font-size: 18px;
+}
+.card2__content {
+  display: flex;
+  justify-content: space-between;
+}
+.card2__content--price {
+  font-weight: 700;
+  font-size: 18px;
+}
+
 .localisation {
   height: 50px;
   background-color: #EAEAEA;
@@ -281,7 +329,7 @@ footer .section__list li {
   background-color: white;
 }
 
-.section-grey {
+.section-darkgrey {
   background-color: #353535;
   color: white;
 }
@@ -289,7 +337,6 @@ footer .section__list li {
 .presentation {
   width: 100%;
   height: 275px;
-  z-index: -1;
 }
 .presentation__img {
   -o-object-fit: cover;
@@ -301,5 +348,24 @@ footer .section__list li {
 .menu {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  margin-top: -40px;
+  margin-top: -45px;
+  position: relative;
+  gap: 40px;
+}
+.menu__resto {
+  display: flex;
+  justify-content: space-between;
+}
+.menu .card__like {
+  margin-right: 18px;
+}
+.menu__title {
+  font-size: 28px;
+  font-family: "Shrikhand";
+}
+.menu__subtitle {
+  font-weight: lighter;
+  font-size: 16px;
+  border-bottom: 3px solid #99E2D0;
+  width: 40px;
 }/*# sourceMappingURL=main.css.map */
