@@ -314,6 +314,22 @@ footer .section__list li {
   justify-content: center;
   gap: 20px;
 }
+.localisation__input {
+  height: 21px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.localisation__input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.localisation__input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
 
 .presentation {
   width: 100%;
