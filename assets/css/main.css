@@ -211,11 +211,11 @@ footer .section__list li {
   z-index: 1;
 }
 
-.sd {
+.sb {
   display: flex;
   align-items: center;
 }
-.sd .sd__num {
+.sb .sb__num {
   width: 24px;
   height: 24px;
   position: absolute;
@@ -226,7 +226,7 @@ footer .section__list li {
   align-items: center;
   justify-content: center;
 }
-.sd .sd__txt {
+.sb .sb__txt {
   width: 100%;
   height: 72px;
   border-radius: 20px;
@@ -238,6 +238,12 @@ footer .section__list li {
   font-weight: bold;
   display: flex;
   align-items: center;
+}
+.sb .sb__txt i {
+  color: rgb(126, 126, 126);
+}
+.sb:hover i {
+  color: #9356DC;
 }
 
 .card__like {
