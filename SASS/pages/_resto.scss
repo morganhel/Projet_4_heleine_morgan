@@ -37,4 +37,18 @@
         width:40px;
 
     }
+
+    .card2{
+        animation: appear 500ms;
+    }
+}
+
+@keyframes appear {
+    from{
+        transform: translateX(2000);
+    }
+
+    to{
+        transform: translateX(0);
+    }
 }

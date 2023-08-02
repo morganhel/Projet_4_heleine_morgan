@@ -414,4 +414,16 @@ footer .section__list li {
   font-size: 16px;
   border-bottom: 3px solid #99E2D0;
   width: 40px;
+}
+.menu .card2 {
+  animation: appear 500ms;
+}
+
+@keyframes appear {
+  from {
+    transform: translateX(2000);
+  }
+  to {
+    transform: translateX(0);
+  }
 }/*# sourceMappingURL=main.css.map */
