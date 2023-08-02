@@ -99,25 +99,25 @@ header .header__return--link {
 }
 .loader__elt {
   font-family: "Shrikhand";
-  animation: loader 1.5s 0.25s both;
+  animation: loader 2s 0.5s both;
 }
 .loader__elt--1 {
   color: #9356DC;
 }
 .loader__elt--2 {
   color: #FF79D9;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 .loader__elt--3 {
   color: #99E2D0;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 
 @keyframes loader-appear {
   0% {
     opacity: 0;
   }
-  50% {
+  75% {
     opacity: 0;
   }
   100% {
