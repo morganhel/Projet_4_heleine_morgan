@@ -30,6 +30,19 @@
         font-family:'Shrikhand';
     }
 
+    &__content{
+        opacity:0;
+        animation: appear 1s ease-in-out both;
+    }
+
+    .item2{
+        animation-delay: 400ms;
+    }
+
+    .item3{
+        animation-delay: 800ms;
+    }
+
     &__subtitle{
         font-weight: lighter;
         font-size: 16px;
@@ -37,18 +50,14 @@
         width:40px;
 
     }
-
-    .card2{
-        animation: appear 500ms;
-    }
 }
 
 @keyframes appear {
     from{
-        transform: translateX(2000);
+        opacity: 0;
     }
 
     to{
-        transform: translateX(0);
+        opacity:1
     }
 }

@@ -1,4 +1,4 @@
-.main-container{
+.main-appear{
     animation: loader-appear 3s 0.25s both;
 }
 
@@ -17,7 +17,7 @@
 
     &__elt{
         font-family:'Shrikhand';
-        animation: loader 2s 0.5s both;
+        animation: loader 2s 0.25s both;
         
         &--1{
             color:$color-primaire;

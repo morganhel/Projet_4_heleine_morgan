@@ -81,7 +81,7 @@ header .header__return--link {
   width: 100%;
 }
 
-.main-container {
+.main-appear {
   animation: loader-appear 3s 0.25s both;
 }
 
@@ -99,7 +99,7 @@ header .header__return--link {
 }
 .loader__elt {
   font-family: "Shrikhand";
-  animation: loader 2s 0.5s both;
+  animation: loader 2s 0.25s both;
 }
 .loader__elt--1 {
   color: #9356DC;
@@ -409,21 +409,28 @@ footer .section__list li {
   font-size: 28px;
   font-family: "Shrikhand";
 }
+.menu__content {
+  opacity: 0;
+  animation: appear 1s ease-in-out both;
+}
+.menu .item2 {
+  animation-delay: 400ms;
+}
+.menu .item3 {
+  animation-delay: 800ms;
+}
 .menu__subtitle {
   font-weight: lighter;
   font-size: 16px;
   border-bottom: 3px solid #99E2D0;
   width: 40px;
 }
-.menu .card2 {
-  animation: appear 500ms;
-}
 
 @keyframes appear {
   from {
-    transform: translateX(2000);
+    opacity: 0;
   }
   to {
-    transform: translateX(0);
+    opacity: 1;
   }
 }/*# sourceMappingURL=main.css.map */
