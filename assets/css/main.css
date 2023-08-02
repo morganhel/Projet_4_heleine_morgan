@@ -259,7 +259,7 @@ footer .section__list li {
   background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79D9 123.93%);
 }
 .card__like--full:hover {
-  animation: fill 400ms ease-in-out forwards;
+  animation: fill 400ms ease-in-out both;
 }
 
 @keyframes fill {
@@ -295,7 +295,7 @@ footer .section__list li {
 }
 .card2__content {
   flex-direction: column;
-  padding: 15px 0 15px 15px;
+  padding: 15px;
   gap: 15px;
   width: 100%;
 }
@@ -317,21 +317,43 @@ footer .section__list li {
   font-size: 18px;
 }
 .card2__check {
-  visibility: hidden;
+  width: 0;
 }
 .card2:hover .card2__content {
   width: 85%;
 }
 .card2:hover .card2__check {
-  visibility: visible;
   color: white;
-  width: 59px;
   background-color: #99E2D0;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: check-ok 400ms ease-in-out both;
+}
+.card2:hover i {
+  animation: turn 300ms;
+  animation-delay: 100ms;
 }
 
+@keyframes check-ok {
+  from {
+    width: 0;
+  }
+  to {
+    width: 59px;
+  }
+}
+@keyframes turn {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
 .localisation {
   height: 50px;
   background-color: #EAEAEA;
