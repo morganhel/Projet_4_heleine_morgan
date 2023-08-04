@@ -25,7 +25,7 @@ p {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
   padding-bottom: 5px;
 }
 
@@ -226,7 +226,6 @@ footer .section__list li a {
   font-size: 14px;
   color: rgb(0, 135, 102);
   font-weight: 500;
-  align: center;
   top: 13px;
   right: 13px;
 }
@@ -437,6 +436,8 @@ footer .section__list li a {
 .menu__title {
   font-size: 28px;
   font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
 }
 .menu__content {
   opacity: 0;
