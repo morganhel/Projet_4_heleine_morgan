@@ -235,7 +235,7 @@ footer .section__list li a {
   display: flex;
   align-items: center;
 }
-.sb .sb__num {
+.sb__num {
   width: 24px;
   height: 24px;
   position: absolute;
@@ -246,7 +246,7 @@ footer .section__list li a {
   align-items: center;
   justify-content: center;
 }
-.sb .sb__txt {
+.sb__txt {
   width: 100%;
   height: 72px;
   border-radius: 20px;
@@ -259,7 +259,10 @@ footer .section__list li a {
   display: flex;
   align-items: center;
 }
-.sb .sb__txt i {
+.sb__txt:hover {
+  background: #f2eafb;
+}
+.sb i {
   color: rgb(126, 126, 126);
 }
 .sb:hover i {
