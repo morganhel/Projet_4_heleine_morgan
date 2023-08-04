@@ -36,6 +36,11 @@ h3 {
   gap: 20px;
   background-color: #F6F6F6;
 }
+.section__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
 .section-center {
   align-items: center;

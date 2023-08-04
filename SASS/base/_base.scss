@@ -35,6 +35,12 @@ h3{
     flex-direction: column;
     gap:20px;
     background-color: $color-background;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
 }
 
 .section-center{
