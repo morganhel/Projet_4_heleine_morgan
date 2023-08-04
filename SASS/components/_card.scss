@@ -34,4 +34,21 @@
     &__like{
         z-index: 1;
     }
+
+    &__new{
+        position :absolute;
+        width:80px;
+        height:29px;
+        border-radius: 2px;
+        background: $color-tertiaire;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        color:rgba(0, 135, 102, 1);
+        font-weight:500;
+        align:center;
+        top:13px;
+        right:13px;
+    }
 }
