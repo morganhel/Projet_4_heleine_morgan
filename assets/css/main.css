@@ -150,6 +150,10 @@ footer .section__list {
 footer .section__list li {
   margin-bottom: 10px;
 }
+footer .section__list li a {
+  text-decoration: none;
+  color: white;
+}
 
 .btn {
   position: relative;
