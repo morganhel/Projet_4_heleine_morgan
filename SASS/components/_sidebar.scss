@@ -30,6 +30,10 @@
         &:hover{
             background: #f2eafb;
         }
+
+        @media (min-width:768px){
+            width:322px
+        }
     }
 
         i{
@@ -41,4 +45,6 @@
             color:$color-primaire;
         }
     }
+
+    
 }

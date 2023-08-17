@@ -40,19 +40,37 @@ h3{
         display: flex;
         flex-direction: column;
         gap:20px;
+
+        &--center{
+            @media(min-width:768px) and (max-width:1024px){
+                justify-content: center;
+                flex-wrap:wrap;
+            }
+        }
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap:wrap;
+        }
+    }    
+
+
+    @media (min-width: 768px){
+        padding: 50px 180px 50px 180px;
     }
 }
 
-.section-center{
+.section--center{
     align-items: center;
     text-align: center;
 }
 
-.section-white{
+.section--white{
     background-color: white;
 }
 
-.section-darkgrey{
+.section--darkgrey{
     background-color: #353535;
     color:white;
 }
+

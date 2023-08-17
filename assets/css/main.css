@@ -41,17 +41,34 @@ h3 {
   flex-direction: column;
   gap: 20px;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section__content--center {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) {
+  .section__content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) {
+  .section {
+    padding: 50px 180px 50px 180px;
+  }
+}
 
-.section-center {
+.section--center {
   align-items: center;
   text-align: center;
 }
 
-.section-white {
+.section--white {
   background-color: white;
 }
 
-.section-darkgrey {
+.section--darkgrey {
   background-color: #353535;
   color: white;
 }
@@ -143,21 +160,34 @@ header .header__return--link {
     transform: translateY(0);
   }
 }
-footer .section__logo {
+.footer__logo {
   font-family: "Shrikhand";
   font-size: 18px;
 }
-footer .section__list {
+.footer__list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-footer .section__list li {
+.footer__list li {
   margin-bottom: 10px;
 }
-footer .section__list li a {
+.footer__list li a {
   text-decoration: none;
   color: white;
+}
+@media (min-width: 768px) {
+  .footer__list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row-reverse;
+  }
 }
 
 .btn {
@@ -188,6 +218,7 @@ footer .section__list li a {
 .card {
   position: relative;
   height: 251px;
+  width: 100%;
   background-color: white;
   border-radius: 20px;
   padding: 0px;
@@ -234,6 +265,11 @@ footer .section__list li a {
   top: 13px;
   right: 13px;
 }
+@media (min-width: 1024px) {
+  .card {
+    width: 45%;
+  }
+}
 
 .sb {
   display: flex;
@@ -265,6 +301,11 @@ footer .section__list li a {
 }
 .sb__txt:hover {
   background: #f2eafb;
+}
+@media (min-width: 768px) {
+  .sb__txt {
+    width: 322px;
+  }
 }
 .sb i {
   color: rgb(126, 126, 126);
@@ -446,19 +487,25 @@ footer .section__list li a {
 }
 .menu__content {
   opacity: 0;
-  animation: appear 1s ease-in-out both;
+  animation: appear 1.5s ease-in-out both;
 }
 .menu .item2 {
-  animation-delay: 400ms;
+  animation-delay: 1s;
 }
 .menu .item3 {
-  animation-delay: 800ms;
+  animation-delay: 2s;
 }
 .menu__subtitle {
   font-weight: lighter;
   font-size: 16px;
   border-bottom: 3px solid #99E2D0;
   width: 40px;
+}
+@media (min-width: 1024px) {
+  .menu {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
 }
 
 @keyframes appear {
