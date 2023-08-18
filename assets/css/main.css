@@ -476,6 +476,12 @@ header .header__return--link {
   display: flex;
   justify-content: space-between;
 }
+@media (min-width: 769px) {
+  .menu__resto {
+    justify-content: center;
+    gap: 20px;
+  }
+}
 .menu .card__like {
   margin-right: 18px;
 }
