@@ -44,7 +44,6 @@ h3 {
 @media (min-width: 768px) and (max-width: 1024px) {
   .section__content--center {
     justify-content: center;
-    flex-wrap: wrap;
   }
 }
 @media (min-width: 768px) {
@@ -302,16 +301,21 @@ header .header__return--link {
 .sb__txt:hover {
   background: #f2eafb;
 }
-@media (min-width: 768px) {
-  .sb__txt {
-    width: 322px;
-  }
-}
 .sb i {
   color: rgb(126, 126, 126);
 }
 .sb:hover i {
   color: #9356DC;
+}
+@media (min-width: 768px) {
+  .sb {
+    width: 322px;
+  }
+}
+@media (min-width: 1024px) {
+  .sb {
+    width: 30%;
+  }
 }
 
 .card__like {
