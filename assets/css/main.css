@@ -175,7 +175,7 @@ header .header__return--link {
   text-decoration: none;
   color: white;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .footer__list {
     display: flex;
     flex-direction: row;
@@ -183,7 +183,7 @@ header .header__return--link {
     padding-right: 50px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .footer {
     flex-direction: row-reverse;
   }
